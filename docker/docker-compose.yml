@@ -11,5 +11,6 @@ services:
       - HOST=0.0.0.0
       - PORT=5001
       - MODELS_PATH=models
+      - DATA_PATH=data
     ports:
       - 5001:5001
